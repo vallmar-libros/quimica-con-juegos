@@ -1,0 +1,1645 @@
+{
+ "libro": "Química con juegos",
+ "autor": "Leo Vallmar",
+ "fecha": "2026-11-10",
+ "nota": "Datos de cada reto, sin soluciones. Los leen los programas de la carpeta programas/.",
+ "retos": {
+  "Q-00-01": {
+   "capitulo": 0,
+   "nivel": 1,
+   "tipo": "contar-atomos",
+   "titulo": "Ejemplo resuelto: ¿cuántos átomos hay?",
+   "enunciado": "¿Cuántos átomos de cada elemento hay en cada fórmula? ¿Y cuántos en total? a) CH₄; b) CaCO₃; c) H₂O.",
+   "datos": {
+    "formulas": [
+     "CH4",
+     "CaCO3",
+     "H2O"
+    ]
+   }
+  },
+  "Q-00-02": {
+   "capitulo": 0,
+   "nivel": 1,
+   "tipo": "exp-disolver",
+   "titulo": "Primer experimento: ¿pesa lo mismo el agua con azúcar?",
+   "enunciado": "¿Pesa lo mismo el agua con azúcar? Lucía: «El azúcar ha desaparecido.» Hugo: «El azúcar sigue ahí, repartido en partículas tan pequeñas que no se ven.» Sara: «El azúcar se ha convertido en agua.» ¿Quién tiene razón? Escribe tu predicción antes de pesar.",
+   "datos": {
+    "escena": "disolver",
+    "materiales": [
+     "un vaso de plástico con agua del grifo",
+     "una cucharada de azúcar en un plato pequeño",
+     "una cuchara",
+     "una báscula de cocina"
+    ],
+    "pasos": [
+     "Escribe tu predicción: al disolver el azúcar, ¿la báscula marcará más, menos o lo mismo?",
+     "Pon en la báscula el vaso con agua y, a su lado, el plato con el azúcar y la cuchara. Apunta la masa.",
+     "Echa el azúcar en el agua y remueve hasta que no se vea.",
+     "Vuelve a poner en la báscula el vaso, el plato vacío y la cuchara. Apunta la masa y compárala."
+    ],
+    "hoja": [
+     "momento",
+     "masa (g)",
+     "¿se ve el azúcar?"
+    ],
+    "limite_txt": "agua del grifo fría y un vaso de plástico",
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "vaso de plástico",
+      "agua del grifo",
+      "azúcar",
+      "cuchara",
+      "báscula de cocina"
+     ],
+     "riesgo": "Si se cae agua, el suelo resbala: sécalo. Nada de lo preparado se come ni se bebe.",
+     "limites": {},
+     "gafas": false,
+     "no_ingerir": true,
+     "respaldo": "disolver",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-00-03": {
+   "capitulo": 0,
+   "nivel": 1,
+   "tipo": "contar-atomos",
+   "titulo": "Primer reto sin IA: cuenta átomos",
+   "enunciado": "¿Cuántos átomos de cada elemento hay en cada fórmula? ¿Y cuántos en total? a) O₂; b) HNO₃; c) C₃H₈; d) Fe₂O₃.",
+   "datos": {
+    "formulas": [
+     "O2",
+     "HNO3",
+     "C3H8",
+     "Fe2O3"
+    ]
+   }
+  },
+  "Q-01-01": {
+   "capitulo": 1,
+   "nivel": 1,
+   "tipo": "clasificar-materia",
+   "titulo": "¿Elemento, compuesto o mezcla?",
+   "enunciado": "Clasifica cada material: elemento, compuesto, mezcla homogénea o mezcla heterogénea. a) bronce (aleación de cobre y estaño); b) aluminio; c) ensalada; d) agua destilada; e) vinagre; f) arena con agua.",
+   "datos": {
+    "items": [
+     "bronce (aleación de cobre y estaño)",
+     "aluminio",
+     "ensalada",
+     "agua destilada",
+     "vinagre",
+     "arena con agua"
+    ]
+   }
+  },
+  "Q-01-02": {
+   "capitulo": 1,
+   "nivel": 1,
+   "tipo": "quien-tiene-razon",
+   "titulo": "¿Adónde va el azúcar?",
+   "enunciado": "Echas una cucharada de azúcar en un vaso de agua, remueves y el azúcar deja de verse. Lucía: «El azúcar ha desaparecido.» Hugo: «El azúcar sigue ahí, repartido en partículas tan pequeñas que no se ven.» Sara: «El azúcar se ha convertido en agua.» ¿Quién tiene razón? Escribe tu predicción y por qué antes de mirar la solución.",
+   "datos": {
+    "escena": "disolver"
+   }
+  },
+  "Q-01-03": {
+   "capitulo": 1,
+   "nivel": 1,
+   "tipo": "exp-disolucion",
+   "titulo": "Azúcar en agua fría y en agua tibia",
+   "enunciado": "¿Se disuelve antes el azúcar en agua fría o en agua tibia? Predice por escrito y después compruébalo.",
+   "datos": {
+    "materiales": [
+     "dos vasos transparentes iguales",
+     "agua del grifo fría",
+     "agua del grifo tibia, 45 °C como mucho (la mide la persona adulta)",
+     "azúcar y una cucharadita para medirlo",
+     "un termómetro de cocina",
+     "dos cucharillas",
+     "un rotulador",
+     "el cronómetro del móvil",
+     "gafas de protección"
+    ],
+    "pasos": [
+     "Escribe tu predicción: ¿en qué vaso desaparecerá antes el azúcar? ¿Por qué?",
+     "Marca con el rotulador la misma altura en los dos vasos. La persona adulta llena uno con agua fría del grifo y el otro con agua tibia del grifo hasta la marca, y comprueba con el termómetro que la tibia no pasa de 45 °C. Apunta la temperatura de los dos vasos.",
+     "Echa a la vez una cucharadita rasa de azúcar en cada vaso y remueve los dos a la vez, contando las vueltas para dar las mismas en cada uno.",
+     "Mide cuánto tarda en dejar de verse el azúcar en cada vaso.",
+     "Repite la prueba con agua nueva y la misma cantidad de azúcar. Compara las dos pruebas."
+    ],
+    "hoja": [
+     "prueba y vaso",
+     "temperatura (°C)",
+     "tiempo hasta que no se ve (s)"
+    ],
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "vasos",
+      "agua del grifo",
+      "azúcar",
+      "termómetro de cocina",
+      "cucharillas",
+      "rotulador",
+      "móvil",
+      "gafas"
+     ],
+     "riesgo": "El agua demasiado caliente quema: solo agua del grifo, y la persona adulta comprueba antes que no pasa de 45 °C. Nada de lo preparado se come ni se bebe.",
+     "limites": {
+      "agua_c": 45
+     },
+     "gafas": true,
+     "no_ingerir": true,
+     "respaldo": "disolucion",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-01-04": {
+   "capitulo": 1,
+   "nivel": 2,
+   "tipo": "quien-tiene-razon",
+   "titulo": "El charco que se seca",
+   "enunciado": "Un charco de agua se seca al sol. Lucía: «Las partículas de agua se han destruido.» Hugo: «Las partículas de agua se han hecho más grandes y ligeras.» Sara: «Las partículas de agua son las mismas, pero ahora están separadas y moviéndose en el aire.» ¿Quién tiene razón? Escribe tu predicción y por qué antes de mirar la solución.",
+   "datos": {
+    "escena": "evaporar"
+   }
+  },
+  "Q-01-05": {
+   "capitulo": 1,
+   "nivel": 2,
+   "tipo": "exp-cristales",
+   "titulo": "Cristales de sal en un plato",
+   "enunciado": "Si la sal «desaparece» al disolverla, ¿se puede recuperar? Predice qué quedará en el plato y compruébalo en unos días.",
+   "datos": {
+    "materiales": [
+     "un vaso de agua del grifo",
+     "sal de cocina",
+     "una cucharilla",
+     "un plato hondo",
+     "una lupa, si la tienes",
+     "gafas de protección"
+    ],
+    "pasos": [
+     "Escribe tu predicción: si dejas agua con sal en un plato varios días, ¿qué quedará?",
+     "Echa sal en el vaso, una cucharilla cada vez, y remueve hasta que ya no se disuelva más y quede un poco en el fondo.",
+     "Echa en el plato un poco del agua con sal, sin el fondo.",
+     "Deja el plato en un sitio donde nadie lo toque. Míralo cada día con la lupa y dibuja lo que ves."
+    ],
+    "hoja": [
+     "día",
+     "¿qué ves?",
+     "dibujo"
+    ],
+    "limite_txt": "el agua se evapora sola, a temperatura ambiente",
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "vaso",
+      "agua del grifo",
+      "sal",
+      "cucharilla",
+      "plato",
+      "lupa",
+      "gafas"
+     ],
+     "riesgo": "El agua con sal escuece en los ojos: ponte las gafas al removerla y verterla. Deja el plato fuera del alcance de niños pequeños y mascotas, y lávate las manos al acabar. Nada de lo preparado se come ni se bebe.",
+     "limites": {},
+     "gafas": true,
+     "no_ingerir": true,
+     "respaldo": "cristales",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-01-06": {
+   "capitulo": 1,
+   "nivel": 1,
+   "tipo": "clasificar-materia",
+   "titulo": "Seis materiales de casa",
+   "enunciado": "Clasifica cada material: elemento, compuesto, mezcla homogénea o mezcla heterogénea. a) dióxido de carbono; b) granito; c) aire limpio; d) agua con aceite; e) sal de mesa (cloruro de sodio); f) hierro.",
+   "datos": {
+    "items": [
+     "dióxido de carbono",
+     "granito",
+     "aire limpio",
+     "agua con aceite",
+     "sal de mesa (cloruro de sodio)",
+     "hierro"
+    ]
+   }
+  },
+  "Q-01-07": {
+   "capitulo": 1,
+   "nivel": 2,
+   "tipo": "quien-tiene-razon",
+   "titulo": "¿Tiene masa el aire?",
+   "enunciado": "Tres amigos discuten si el aire tiene masa. Lucía: «El aire no tiene masa: no pesa nada.» Hugo: «Un gas tiene masa, aunque sea mucho menos denso que un líquido.» Sara: «Los gases tienen masa negativa: por eso suben los globos.» ¿Quién tiene razón? Escribe tu predicción y por qué antes de mirar la solución.",
+   "datos": {
+    "escena": "gas-masa"
+   }
+  },
+  "Q-01-08": {
+   "capitulo": 1,
+   "nivel": 1,
+   "tipo": "contar-atomos",
+   "titulo": "Repaso: átomos en las fórmulas",
+   "enunciado": "¿Cuántos átomos de cada elemento hay en cada fórmula? ¿Y cuántos en total? a) NH₃; b) HNO₃; c) C₃H₈; d) Fe₂O₃.",
+   "datos": {
+    "formulas": [
+     "NH3",
+     "HNO3",
+     "C3H8",
+     "Fe2O3"
+    ]
+   }
+  },
+  "Q-02-01": {
+   "capitulo": 2,
+   "nivel": 1,
+   "tipo": "particulas",
+   "titulo": "Dentro del átomo",
+   "enunciado": "El número de arriba a la izquierda es el número másico A (protones + neutrones); el de arriba a la derecha, la carga. Con la tabla periódica del libro, di cuántos protones, neutrones y electrones tiene cada uno: a) ²⁷Al; b) ¹⁶O; c) ¹⁴N; d) ³⁹K.",
+   "datos": {
+    "especies": [
+     [
+      "Al",
+      27,
+      0
+     ],
+     [
+      "O",
+      16,
+      0
+     ],
+     [
+      "N",
+      14,
+      0
+     ],
+     [
+      "K",
+      39,
+      0
+     ]
+    ]
+   }
+  },
+  "Q-02-02": {
+   "capitulo": 2,
+   "nivel": 1,
+   "tipo": "tabla-casillas",
+   "titulo": "Batalla naval de la tabla periódica",
+   "enunciado": "Batalla naval de la tabla periódica. Juega con alguien: cada uno marca en su tabla, sin que el otro la vea, tres elementos de los periodos 1 a 3. Por turnos, «disparad» diciendo grupo y periodo; si hay un elemento marcado, el otro dice su nombre y su símbolo. Para entrenar, solo: ¿qué elemento hay en cada casilla? a) grupo 1, periodo 3; b) grupo 2, periodo 2; c) grupo 18, periodo 3; d) grupo 1, periodo 2; e) grupo 13, periodo 2. Di también si es metal, no metal, semimetal o gas noble.",
+   "datos": {
+    "casillas": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      18,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      13,
+      2
+     ]
+    ]
+   }
+  },
+  "Q-02-03": {
+   "capitulo": 2,
+   "nivel": 2,
+   "tipo": "particulas",
+   "titulo": "Iones e isótopos",
+   "enunciado": "El número de arriba a la izquierda es el número másico A (protones + neutrones); el de arriba a la derecha, la carga. Con la tabla periódica del libro, di cuántos protones, neutrones y electrones tiene cada uno: a) ³H; b) ¹⁸O; c) ³⁹K⁺; d) ³⁵Cl⁻.",
+   "datos": {
+    "especies": [
+     [
+      "H",
+      3,
+      0
+     ],
+     [
+      "O",
+      18,
+      0
+     ],
+     [
+      "K",
+      39,
+      1
+     ],
+     [
+      "Cl",
+      35,
+      -1
+     ]
+    ]
+   }
+  },
+  "Q-02-04": {
+   "capitulo": 2,
+   "nivel": 2,
+   "tipo": "tabla-pistas",
+   "titulo": "¿Quién soy?",
+   "enunciado": "¿Quién soy? Cada acertijo es un elemento de número atómico 2 a 20 (del helio al calcio), y las pistas dejan un solo candidato: a) Estoy en el grupo 13. Tengo más de 11 protones. b) Tengo más de 10 protones. Estoy en el grupo 15. c) Estoy en el periodo 2. Mi ion más común tiene carga 1+.",
+   "datos": {
+    "acertijos": [
+     [
+      [
+       "grupo",
+       13
+      ],
+      [
+       "zmayor",
+       11
+      ]
+     ],
+     [
+      [
+       "zmayor",
+       10
+      ],
+      [
+       "grupo",
+       15
+      ]
+     ],
+     [
+      [
+       "periodo",
+       2
+      ],
+      [
+       "ion",
+       1
+      ]
+     ]
+    ]
+   }
+  },
+  "Q-02-05": {
+   "capitulo": 2,
+   "nivel": 2,
+   "tipo": "particulas",
+   "titulo": "Iones con carga",
+   "enunciado": "El número de arriba a la izquierda es el número másico A (protones + neutrones); el de arriba a la derecha, la carga. Con la tabla periódica del libro, di cuántos protones, neutrones y electrones tiene cada uno: a) ²⁴Mg²⁺; b) ²³Na⁺; c) ³⁵Cl⁻; d) ²⁷Al³⁺.",
+   "datos": {
+    "especies": [
+     [
+      "Mg",
+      24,
+      2
+     ],
+     [
+      "Na",
+      23,
+      1
+     ],
+     [
+      "Cl",
+      35,
+      -1
+     ],
+     [
+      "Al",
+      27,
+      3
+     ]
+    ]
+   }
+  },
+  "Q-02-06": {
+   "capitulo": 2,
+   "nivel": 2,
+   "tipo": "tabla-pistas",
+   "titulo": "Tres elementos escondidos",
+   "enunciado": "¿Quién soy? Cada acertijo es un elemento de número atómico 2 a 20 (del helio al calcio), y las pistas dejan un solo candidato: a) Tengo más de 13 protones. Estoy en el grupo 15. b) Tengo más de 15 protones. Soy un gas noble. c) Mi ion más común tiene carga 1+. Estoy en el periodo 2.",
+   "datos": {
+    "acertijos": [
+     [
+      [
+       "zmayor",
+       13
+      ],
+      [
+       "grupo",
+       15
+      ]
+     ],
+     [
+      [
+       "zmayor",
+       15
+      ],
+      [
+       "tipo",
+       "gas noble"
+      ]
+     ],
+     [
+      [
+       "ion",
+       1
+      ],
+      [
+       "periodo",
+       2
+      ]
+     ]
+    ]
+   }
+  },
+  "Q-02-07": {
+   "capitulo": 2,
+   "nivel": 1,
+   "tipo": "particulas",
+   "titulo": "Protones, neutrones y electrones",
+   "enunciado": "El número de arriba a la izquierda es el número másico A (protones + neutrones); el de arriba a la derecha, la carga. Con la tabla periódica del libro, di cuántos protones, neutrones y electrones tiene cada uno: a) ³⁵Cl; b) ¹H; c) ⁵⁶Fe; d) ³⁹K.",
+   "datos": {
+    "especies": [
+     [
+      "Cl",
+      35,
+      0
+     ],
+     [
+      "H",
+      1,
+      0
+     ],
+     [
+      "Fe",
+      56,
+      0
+     ],
+     [
+      "K",
+      39,
+      0
+     ]
+    ]
+   }
+  },
+  "Q-02-08": {
+   "capitulo": 2,
+   "nivel": 1,
+   "tipo": "clasificar-materia",
+   "titulo": "Repaso: clasificar materiales",
+   "enunciado": "Clasifica cada material: elemento, compuesto, mezcla homogénea o mezcla heterogénea. a) oxígeno; b) arena con agua; c) agua destilada; d) vinagre; e) diamante (carbono); f) agua con aceite.",
+   "datos": {
+    "items": [
+     "oxígeno",
+     "arena con agua",
+     "agua destilada",
+     "vinagre",
+     "diamante (carbono)",
+     "agua con aceite"
+    ]
+   }
+  },
+  "Q-03-01": {
+   "capitulo": 3,
+   "nivel": 1,
+   "tipo": "nombrar-ion",
+   "titulo": "Nombres de iones",
+   "enunciado": "Nombra cada ion monoatómico: a) Fe²⁺; b) N³⁻; c) Cl⁻; d) Cu²⁺; e) Al³⁺; f) I⁻.",
+   "datos": {
+    "iones": [
+     [
+      "Fe",
+      2
+     ],
+     [
+      "N",
+      -3
+     ],
+     [
+      "Cl",
+      -1
+     ],
+     [
+      "Cu",
+      2
+     ],
+     [
+      "Al",
+      3
+     ],
+     [
+      "I",
+      -1
+     ]
+    ]
+   }
+  },
+  "Q-03-02": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "formula-ionica",
+   "titulo": "Cartas de iones",
+   "enunciado": "Cartas de iones: junta cada catión con su anión y escribe la fórmula del compuesto neutro (las cargas tienen que sumar cero): a) Fe²⁺ y Cl⁻; b) Cu⁺ y O²⁻; c) Pb⁴⁺ y O²⁻; d) Fe³⁺ y O²⁻.",
+   "datos": {
+    "pares": [
+     [
+      "Fe",
+      2,
+      "Cl"
+     ],
+     [
+      "Cu",
+      1,
+      "O"
+     ],
+     [
+      "Pb",
+      4,
+      "O"
+     ],
+     [
+      "Fe",
+      3,
+      "O"
+     ]
+    ]
+   }
+  },
+  "Q-03-03": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "nombrar",
+   "titulo": "Nombres con números romanos",
+   "enunciado": "Nombra cada compuesto con la nomenclatura de Stock (número romano solo si el metal puede tener varios estados de oxidación): a) CuCl₂; b) ZnI₂; c) PbO₂; d) Na₂O.",
+   "datos": {
+    "sistema": "stock",
+    "formulas": [
+     "CuCl2",
+     "ZnI2",
+     "PbO2",
+     "Na2O"
+    ]
+   }
+  },
+  "Q-03-04": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "formular",
+   "titulo": "Del nombre a la fórmula",
+   "enunciado": "Escribe la fórmula de cada compuesto: a) sulfuro de hierro(II); b) óxido de hierro(II); c) trióxido de azufre; d) dióxido de carbono.",
+   "datos": {
+    "nombres": [
+     "sulfuro de hierro(II)",
+     "óxido de hierro(II)",
+     "trióxido de azufre",
+     "dióxido de carbono"
+    ]
+   }
+  },
+  "Q-03-05": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "domino",
+   "titulo": "Dominó de fórmulas y nombres",
+   "enunciado": "Dominó de fórmulas y nombres. Cada ficha tiene una fórmula a la izquierda y el nombre de otra sustancia a la derecha. Empieza por la ficha A y coloca detrás la ficha cuya fórmula corresponde al nombre de la anterior, hasta cerrar el círculo. Fichas: A [FeS | dióxido de nitrógeno]; B [SO₃ | pentaóxido de dinitrógeno]; C [N₂O₅ | sulfuro de hierro(II)]; D [NO₂ | cloruro de calcio]; E [CaCl₂ | cloruro de sodio]; F [NaCl | trióxido de azufre]. ¿En qué orden quedan?",
+   "datos": {
+    "fichas": [
+     [
+      "A",
+      "FeS",
+      "dióxido de nitrógeno"
+     ],
+     [
+      "B",
+      "SO3",
+      "pentaóxido de dinitrógeno"
+     ],
+     [
+      "C",
+      "N2O5",
+      "sulfuro de hierro(II)"
+     ],
+     [
+      "D",
+      "NO2",
+      "cloruro de calcio"
+     ],
+     [
+      "E",
+      "CaCl2",
+      "cloruro de sodio"
+     ],
+     [
+      "F",
+      "NaCl",
+      "trióxido de azufre"
+     ]
+    ]
+   }
+  },
+  "Q-03-06": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "nombrar",
+   "titulo": "Nombres con prefijos",
+   "enunciado": "Nombra cada compuesto con prefijos (mono-, di-, tri-…): a) SO₂; b) SF₆; c) NO₂; d) Fe₂O₃.",
+   "datos": {
+    "sistema": "prefijos",
+    "formulas": [
+     "SO2",
+     "SF6",
+     "NO2",
+     "Fe2O3"
+    ]
+   }
+  },
+  "Q-03-07": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "formula-ionica",
+   "titulo": "Más cartas de iones",
+   "enunciado": "Cartas de iones: junta cada catión con su anión y escribe la fórmula del compuesto neutro (las cargas tienen que sumar cero): a) Li⁺ y N³⁻; b) Ba²⁺ y Br⁻; c) Ag⁺ y S²⁻; d) Al³⁺ y Cl⁻.",
+   "datos": {
+    "pares": [
+     [
+      "Li",
+      1,
+      "N"
+     ],
+     [
+      "Ba",
+      2,
+      "Br"
+     ],
+     [
+      "Ag",
+      1,
+      "S"
+     ],
+     [
+      "Al",
+      3,
+      "Cl"
+     ]
+    ]
+   }
+  },
+  "Q-03-08": {
+   "capitulo": 3,
+   "nivel": 2,
+   "tipo": "nombrar",
+   "titulo": "Nombra sin ayuda",
+   "enunciado": "Nombra cada compuesto con Stock si tiene un metal y con prefijos si son dos no metales: a) NaCl; b) FeO; c) SO₃; d) SO₂.",
+   "datos": {
+    "sistema": "mixto",
+    "formulas": [
+     "NaCl",
+     "FeO",
+     "SO3",
+     "SO2"
+    ]
+   }
+  },
+  "Q-03-09": {
+   "capitulo": 3,
+   "nivel": 1,
+   "tipo": "particulas",
+   "titulo": "Repaso: dentro del átomo",
+   "enunciado": "El número de arriba a la izquierda es el número másico A (protones + neutrones); el de arriba a la derecha, la carga. Con la tabla periódica del libro, di cuántos protones, neutrones y electrones tiene cada uno: a) ¹⁶O²⁻; b) ¹⁴N³⁻; c) ¹⁹F⁻; d) ³⁷Cl⁻.",
+   "datos": {
+    "especies": [
+     [
+      "O",
+      16,
+      -2
+     ],
+     [
+      "N",
+      14,
+      -3
+     ],
+     [
+      "F",
+      19,
+      -1
+     ],
+     [
+      "Cl",
+      37,
+      -1
+     ]
+    ]
+   }
+  },
+  "Q-04-01": {
+   "capitulo": 4,
+   "nivel": 1,
+   "tipo": "cambio-fisico-quimico",
+   "titulo": "¿Cambio físico o químico?",
+   "enunciado": "¿Cambio físico o cambio químico? a) empañarse el espejo en la ducha; b) cocer un huevo; c) doblar un clip; d) digerir los alimentos; e) salir burbujas al echar bicarbonato en vinagre; f) secarse un charco.",
+   "datos": {
+    "items": [
+     "empañarse el espejo en la ducha",
+     "cocer un huevo",
+     "doblar un clip",
+     "digerir los alimentos",
+     "salir burbujas al echar bicarbonato en vinagre",
+     "secarse un charco"
+    ]
+   }
+  },
+  "Q-04-02": {
+   "capitulo": 4,
+   "nivel": 1,
+   "tipo": "exp-lombarda",
+   "titulo": "El indicador de lombarda",
+   "enunciado": "El agua de lombarda cambia de color según lo que le eches. Predice el color de cada vaso: con vinagre, con bicarbonato, con sal, con azúcar y el vaso testigo, sin nada.",
+   "datos": {
+    "materiales": [
+     "dos hojas de lombarda (col roja)",
+     "agua del grifo tibia, 45 °C como mucho (la mide la persona adulta)",
+     "un bol",
+     "un colador",
+     "cinco vasos transparentes",
+     "vinagre",
+     "bicarbonato",
+     "sal",
+     "azúcar",
+     "un rotulador",
+     "un termómetro de cocina",
+     "gafas de protección"
+    ],
+    "pasos": [
+     "La persona adulta trocea con las manos las hojas de lombarda en el bol, las cubre con agua tibia del grifo (45 °C como mucho), espera 15 minutos y cuela el agua, que sale morada.",
+     "Escribe en cada vaso con el rotulador: vinagre, bicarbonato, sal, azúcar y «testigo». Echa en cada uno un poco de agua de lombarda.",
+     "Escribe tu predicción: ¿de qué color se pondrá cada vaso?",
+     "Con las gafas puestas, añade a cada vaso una cucharadita de lo que dice su etiqueta; el testigo se queda como está, para comparar. Remueve y apunta el color."
+    ],
+    "hoja": [
+     "vaso",
+     "mi predicción",
+     "color",
+     "¿ácido, básico o neutro?"
+    ],
+    "filas_hoja": 5,
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "lombarda",
+      "agua del grifo",
+      "bol",
+      "colador",
+      "vasos",
+      "vinagre",
+      "bicarbonato",
+      "sal",
+      "azúcar",
+      "rotulador",
+      "termómetro de cocina",
+      "gafas"
+     ],
+     "riesgo": "El vinagre escuece en los ojos: ponte las gafas y no te frotes los ojos. La lombarda mancha la ropa. Solo estos materiales de cocina: nunca productos de limpieza. Nada de lo preparado se come ni se bebe. Al acabar, se tira todo por el fregadero con agua.",
+     "limites": {
+      "agua_c": 45
+     },
+     "gafas": true,
+     "no_ingerir": true,
+     "respaldo": "lombarda",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-04-03": {
+   "capitulo": 4,
+   "nivel": 1,
+   "tipo": "conservacion-masa",
+   "titulo": "La masa que se escapa",
+   "enunciado": "En un vaso abierto sobre una báscula se mezclan bicarbonato y vinagre. Antes de mezclar, todo marca 387,9 g. Cuando dejan de salir burbujas, marca 385,7 g. ¿Cuánta masa falta? ¿Adónde ha ido?",
+   "datos": {
+    "modo": "vaso",
+    "antes": 387.9,
+    "despues": 385.7
+   }
+  },
+  "Q-04-04": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "exp-vaso-abierto",
+   "titulo": "Bicarbonato y vinagre en la báscula",
+   "enunciado": "Mezclas bicarbonato y vinagre en un vaso abierto encima de la báscula. Datos de ejemplo: antes, 312,4 g; después, 311,1 g. ¿Se ha destruido masa? Predice qué marcará tu báscula y compruébalo.",
+   "datos": {
+    "antes": [
+     312.4,
+     "g"
+    ],
+    "despues": [
+     311.1,
+     "g"
+    ],
+    "materiales": [
+     "un vaso ancho de plástico con medio vaso de vinagre",
+     "una cucharadita de bicarbonato en un plato pequeño",
+     "una bandeja",
+     "una báscula de cocina",
+     "gafas de protección"
+    ],
+    "pasos": [
+     "Escribe tu predicción: al mezclar, ¿la báscula marcará más, menos o lo mismo? ¿Por qué?",
+     "Pon la bandeja en la báscula y, encima, el vaso con el vinagre y el plato con el bicarbonato. Apunta la masa.",
+     "Con las gafas puestas, echa el bicarbonato en el vaso. Salen burbujas: deja el vaso abierto, sin taparlo.",
+     "Cuando dejen de salir burbujas, apunta lo que marca la báscula con todo encima (vaso, plato y bandeja). La diferencia esperada es pequeña, de 1 a 2 g: una báscula de cocina puede variar 1 g arriba o abajo."
+    ],
+    "hoja": [
+     "momento",
+     "masa (g)",
+     "¿qué ves?"
+    ],
+    "limite_txt": "vaso abierto, nunca tapado; una cucharadita de bicarbonato y medio vaso de vinagre como mucho",
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "vaso de plástico",
+      "vinagre",
+      "bicarbonato",
+      "plato",
+      "bandeja",
+      "báscula de cocina",
+      "gafas"
+     ],
+     "riesgo": "Hace espuma y puede salpicar: gafas, vaso ancho y bandeja debajo. No tapes nunca el vaso ni lo cierres: el gas tiene que salir. Nada de lo preparado se come ni se bebe.",
+     "limites": {},
+     "gafas": true,
+     "no_ingerir": true,
+     "respaldo": "vaso-abierto",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-04-05": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "masa-molecular",
+   "titulo": "Masas a partir de la fórmula",
+   "enunciado": "Masas a partir de la fórmula. Con las masas atómicas de la tabla del libro, calcula en unidades de masa atómica (u) la masa molecular de cada sustancia molecular o la masa de la unidad fórmula de cada compuesto iónico (los que llevan un metal). Di cuál de las dos es. Redondea a los decimales del dato menos preciso: a) H₂O; b) Al₂(SO₄)₃; c) C₆H₁₂O₆; d) H₂SO₄.",
+   "datos": {
+    "formulas": [
+     "H2O",
+     "Al2(SO4)3",
+     "C6H12O6",
+     "H2SO4"
+    ]
+   }
+  },
+  "Q-04-06": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "recuento-ecuacion",
+   "titulo": "¿Está ajustada?",
+   "enunciado": "Cuenta los átomos de cada elemento a cada lado de la flecha y di si cada ecuación está ajustada (sí o no). No hace falta ajustarlas: a) 2 CH₄ + 2 O₂ → CO₂ + 2 H₂O; b) CaCO₃ + 3 HCl → CaCl₂ + H₂O + CO₂; c) 2 HNO₃ + Mg(OH)₂ → Mg(NO₃)₂ + 2 H₂O; d) 2 Mg + O₂ → 3 MgO.",
+   "datos": {
+    "ecuaciones": [
+     "2 CH4 + 2 O2 -> CO2 + 2 H2O",
+     "CaCO3 + 3 HCl -> CaCl2 + H2O + CO2",
+     "2 HNO3 + Mg(OH)2 -> Mg(NO3)2 + 2 H2O",
+     "2 Mg + O2 -> 3 MgO"
+    ]
+   }
+  },
+  "Q-04-07": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "proporciones",
+   "titulo": "Siempre en la misma proporción",
+   "enunciado": "Ley de las proporciones definidas: en el cloruro de sodio (NaCl), los elementos siempre se combinan en la misma proporción de masa. Si reaccionan por completo 11,5 g de sodio, ¿cuántos gramos de cloro se combinan con ellos? ¿Cuánto cloruro de sodio se forma? Usa las masas atómicas de la tabla.",
+   "datos": {
+    "formula": "NaCl",
+    "dado": [
+     "Na",
+     11.5
+    ],
+    "pide": "Cl"
+   }
+  },
+  "Q-04-08": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "exp-levadura",
+   "titulo": "La levadura que hace espuma",
+   "enunciado": "La levadura de panadería con azúcar y agua hace espuma. ¿Qué la hace ir más deprisa: el agua tibia, el azúcar o las dos cosas? Predice por escrito y compruébalo con tres vasos.",
+   "datos": {
+    "materiales": [
+     "tres vasos transparentes iguales",
+     "un sobre de levadura de panadería",
+     "azúcar",
+     "agua del grifo fría",
+     "agua del grifo tibia, 40 °C como mucho (la mide la persona adulta)",
+     "un termómetro de cocina",
+     "una cucharilla",
+     "un rotulador",
+     "una regla"
+    ],
+    "pasos": [
+     "Escribe tu predicción: ¿en qué vaso saldrá más espuma? ¿Por qué?",
+     "La persona adulta prepara el agua tibia del grifo y comprueba con el termómetro que no pasa de 40 °C.",
+     "Vaso A: medio vaso de agua tibia, una cucharilla de azúcar y una de levadura. Vaso B: igual, pero con agua fría. Vaso C: agua tibia y levadura, sin azúcar. Remueve los tres.",
+     "Cada 5 minutos, marca con el rotulador hasta dónde llega la espuma, durante 20 minutos. Los vasos se quedan abiertos."
+    ],
+    "hoja": [
+     "minuto",
+     "vaso A (cm)",
+     "vaso B (cm)",
+     "vaso C (cm)"
+    ],
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "vasos",
+      "levadura de panadería",
+      "azúcar",
+      "agua del grifo",
+      "termómetro de cocina",
+      "cucharilla",
+      "rotulador",
+      "regla"
+     ],
+     "riesgo": "Agua tibia, nunca más de 40 °C: la mide la persona adulta. Nada de lo preparado se come ni se bebe. Al acabar, se tira por el fregadero y se lavan los vasos.",
+     "limites": {
+      "agua_c": 40
+     },
+     "gafas": false,
+     "no_ingerir": true,
+     "respaldo": "levadura",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-04-09": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "quien-tiene-razon",
+   "titulo": "El clavo en el tarro cerrado",
+   "enunciado": "En un tarro de cristal bien cerrado, con aire dentro, un clavo de hierro se oxida durante semanas. ¿Qué pasa con la masa de todo el tarro? Lucía: «Baja, porque el hierro se gasta.» Hugo: «Sube, porque aparece óxido nuevo.» Sara: «No cambia: el oxígeno del aire pasa al óxido sin salir del tarro.» ¿Quién tiene razón? Escribe tu predicción y por qué antes de mirar la solución.",
+   "datos": {
+    "escena": "oxidar"
+   }
+  },
+  "Q-04-10": {
+   "capitulo": 4,
+   "nivel": 1,
+   "tipo": "cambio-fisico-quimico",
+   "titulo": "Cambios en la cocina",
+   "enunciado": "¿Cambio físico o cambio químico? a) salir burbujas al echar bicarbonato en vinagre; b) congelar un zumo; c) fundirse un cubito de hielo; d) ponerse marrón una manzana cortada; e) oxidarse un clavo; f) triturar azúcar hasta hacerla polvo.",
+   "datos": {
+    "items": [
+     "salir burbujas al echar bicarbonato en vinagre",
+     "congelar un zumo",
+     "fundirse un cubito de hielo",
+     "ponerse marrón una manzana cortada",
+     "oxidarse un clavo",
+     "triturar azúcar hasta hacerla polvo"
+    ]
+   }
+  },
+  "Q-04-11": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "conservacion-masa",
+   "titulo": "La masa de los productos",
+   "enunciado": "En un recipiente cerrado reaccionan por completo 16,0 g de metano con 64,0 g de oxígeno. Se forman 44,0 g de dióxido de carbono y algo de agua. ¿Cuántos gramos de agua se forman?",
+   "datos": {
+    "modo": "reaccion",
+    "reactivos": [
+     [
+      "metano",
+      16.0
+     ],
+     [
+      "oxígeno",
+      64.0
+     ]
+    ],
+    "producto_conocido": [
+     "dióxido de carbono",
+     44.0
+    ],
+    "producto_pedido": "agua"
+   }
+  },
+  "Q-04-12": {
+   "capitulo": 4,
+   "nivel": 2,
+   "tipo": "formula-ionica",
+   "titulo": "Repaso: cartas de iones",
+   "enunciado": "Cartas de iones: junta cada catión con su anión y escribe la fórmula del compuesto neutro (las cargas tienen que sumar cero): a) Mg²⁺ y N³⁻; b) Ag⁺ y S²⁻; c) Pb⁴⁺ y O²⁻; d) Zn²⁺ y I⁻.",
+   "datos": {
+    "pares": [
+     [
+      "Mg",
+      2,
+      "N"
+     ],
+     [
+      "Ag",
+      1,
+      "S"
+     ],
+     [
+      "Pb",
+      4,
+      "O"
+     ],
+     [
+      "Zn",
+      2,
+      "I"
+     ]
+    ]
+   }
+  },
+  "Q-05-01": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Ejemplo resuelto: el agua",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: H₂ + O₂ → H₂O.",
+   "datos": {
+    "reactivos": [
+     "H2",
+     "O2"
+    ],
+    "productos": [
+     "H2O"
+    ]
+   }
+  },
+  "Q-05-02": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Síntesis",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: Fe + O₂ → Fe₂O₃.",
+   "datos": {
+    "reactivos": [
+     "Fe",
+     "O2"
+    ],
+    "productos": [
+     "Fe2O3"
+    ]
+   }
+  },
+  "Q-05-03": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Combustiones",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: C₄H₁₀ + O₂ → CO₂ + H₂O.",
+   "datos": {
+    "reactivos": [
+     "C4H10",
+     "O2"
+    ],
+    "productos": [
+     "CO2",
+     "H2O"
+    ]
+   }
+  },
+  "Q-05-04": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Neutralizaciones",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: HNO₃ + Mg(OH)₂ → Mg(NO₃)₂ + H₂O.",
+   "datos": {
+    "reactivos": [
+     "HNO3",
+     "Mg(OH)2"
+    ],
+    "productos": [
+     "Mg(NO3)2",
+     "H2O"
+    ]
+   }
+  },
+  "Q-05-05": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Con iones: cuadra también la carga",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: Cu + Ag⁺ → Cu²⁺ + Ag. Recuerda: hay iones, así que además de los átomos tiene que cuadrar la carga total de cada lado.",
+   "datos": {
+    "reactivos": [
+     "Cu",
+     "Ag+"
+    ],
+    "productos": [
+     "Cu^2+",
+     "Ag"
+    ]
+   }
+  },
+  "Q-05-06": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Descomposiciones",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: NaHCO₃ → Na₂CO₃ + H₂O + CO₂.",
+   "datos": {
+    "reactivos": [
+     "NaHCO3"
+    ],
+    "productos": [
+     "Na2CO3",
+     "H2O",
+     "CO2"
+    ]
+   }
+  },
+  "Q-05-07": {
+   "capitulo": 5,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Iones sin ayuda",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: Al³⁺ + OH⁻ → Al(OH)₃.",
+   "datos": {
+    "reactivos": [
+     "Al^3+",
+     "OH-"
+    ],
+    "productos": [
+     "Al(OH)3"
+    ]
+   }
+  },
+  "Q-05-08": {
+   "capitulo": 5,
+   "nivel": 2,
+   "tipo": "recuento-ecuacion",
+   "titulo": "Repaso: ¿está ajustada?",
+   "enunciado": "Cuenta los átomos de cada elemento a cada lado de la flecha y di si cada ecuación está ajustada (sí o no). No hace falta ajustarlas: a) 3 Mg + O₂ → 2 MgO; b) 5 Al + 3 O₂ → 2 Al₂O₃; c) 2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O; d) 4 NH₃ + 5 O₂ → 5 NO + 6 H₂O.",
+   "datos": {
+    "ecuaciones": [
+     "3 Mg + O2 -> 2 MgO",
+     "5 Al + 3 O2 -> 2 Al2O3",
+     "2 C2H6 + 7 O2 -> 4 CO2 + 6 H2O",
+     "4 NH3 + 5 O2 -> 5 NO + 6 H2O"
+    ]
+   }
+  },
+  "Q-06-01": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "mol",
+   "titulo": "De gramos a moles",
+   "enunciado": "Tienes 4,20 g de bicarbonato de sodio (NaHCO₃). Calcula su masa molar con la tabla y di cuántos moles son.",
+   "datos": {
+    "formula": "NaHCO3",
+    "m": 4.2
+   }
+  },
+  "Q-06-02": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "mol",
+   "titulo": "¿Cuántas moléculas?",
+   "enunciado": "Tienes 8,00 g de metano (CH₄). Calcula su masa molar con la tabla y di cuántos moles son. ¿Cuántas moléculas hay? Usa 6,022 · 10²³ partículas por mol.",
+   "datos": {
+    "formula": "CH4",
+    "m": 8.0,
+    "particulas": true,
+    "unidad_particula": "moléculas"
+   }
+  },
+  "Q-06-03": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "concentracion",
+   "titulo": "Una disolución en g/L",
+   "enunciado": "Disuelves 20,0 g de sal en agua hasta tener 500 mL de disolución. ¿Cuál es la concentración en gramos por litro (g/L)?",
+   "datos": {
+    "modo": "c",
+    "soluto": "sal",
+    "m": 20,
+    "V_mL": 500
+   }
+  },
+  "Q-06-04": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "estequiometria",
+   "titulo": "Receta química",
+   "enunciado": "Receta química: C₃H₈ + O₂ → CO₂ + H₂O. Ajusta la ecuación. Si reaccionan por completo 44,1 g de propano, ¿cuántos gramos de agua se forman? Usa las masas de la tabla.",
+   "datos": {
+    "reactivos": [
+     "C3H8",
+     "O2"
+    ],
+    "productos": [
+     "CO2",
+     "H2O"
+    ],
+    "dado": "C3H8",
+    "pide": "H2O",
+    "m": 44.1
+   }
+  },
+  "Q-06-05": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "estequiometria",
+   "titulo": "El gas del bicarbonato",
+   "enunciado": "Receta química: NaHCO₃ + CH₃COOH → CH₃COONa + H₂O + CO₂. Ajusta la ecuación. Si reaccionan por completo 8,40 g de bicarbonato de sodio, ¿cuántos gramos de dióxido de carbono se forman? Usa las masas de la tabla.",
+   "datos": {
+    "reactivos": [
+     "NaHCO3",
+     "CH3COOH"
+    ],
+    "productos": [
+     "CH3COONa",
+     "H2O",
+     "CO2"
+    ],
+    "dado": "NaHCO3",
+    "pide": "CO2",
+    "m": 8.4
+   }
+  },
+  "Q-06-06": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "exp-neutralizacion",
+   "titulo": "El vinagre pierde acidez",
+   "enunciado": "El vinagre pone rosa el agua de lombarda. ¿Qué pasa si le añades bicarbonato poco a poco? Predice cómo cambiará el color y cuenta cuántas veces hay que añadir ¼ de cucharadita para que deje de ser rosa. ¿Qué te dice ese color: que la mezcla es menos ácida o que ya no queda nada de ácido?",
+   "datos": {
+    "materiales": [
+     "agua de lombarda ya fría (la prepara la persona adulta como en el reto Q-04-02)",
+     "vinagre",
+     "bicarbonato",
+     "un vaso transparente grande",
+     "una cuchara de medir de ¼ de cucharadita",
+     "una cucharilla",
+     "gafas de protección"
+    ],
+    "pasos": [
+     "Echa en el vaso medio vaso de agua de lombarda y una cucharada de vinagre: se pone rosa.",
+     "Escribe tu predicción: ¿cómo cambiará el color al añadir bicarbonato poco a poco? ¿Cuántas veces habrá que añadir?",
+     "Con las gafas puestas, añade ¼ de cucharadita de bicarbonato. Espera a que paren las burbujas, remueve y apunta el color.",
+     "Repite, ¼ de cucharadita cada vez, hasta que el color deje de ser rosa, y como mucho 8 veces (2 cucharaditas en total). Cuenta cuántas veces has añadido.",
+     "Si después de 8 veces el color no ha cambiado, para: no añadas más. Apúntalo y avisa a la persona adulta. Al acabar, se tira todo por el fregadero con agua."
+    ],
+    "hoja": [
+     "veces",
+     "color",
+     "¿burbujas?"
+    ],
+    "filas_hoja_repo": 9,
+    "limite_txt": "vaso grande y abierto; ¼ de cucharadita de bicarbonato cada vez y 8 veces como mucho (2 cucharaditas en total)",
+    "seguridad": {
+     "adulto": true,
+     "materiales": [
+      "agua de lombarda",
+      "vinagre",
+      "bicarbonato",
+      "vaso",
+      "cuchara de medir",
+      "cucharilla",
+      "gafas"
+     ],
+     "riesgo": "Salen burbujas y puede salpicar: gafas, vaso grande y sin taparlo nunca. Solo estos materiales de cocina: nunca productos de limpieza. Nada de lo preparado se come ni se bebe.",
+     "limites": {},
+     "gafas": true,
+     "no_ingerir": true,
+     "respaldo": "neutralizacion",
+     "parada": "Si algo salpica, te pica la piel o huele raro, para, lávate con agua y avisa a la persona adulta."
+    }
+   }
+  },
+  "Q-06-07": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "mol",
+   "titulo": "Moles sin ayuda",
+   "enunciado": "Tienes 58,4 g de cloruro de sodio (NaCl). Calcula su masa molar con la tabla y di cuántos moles son. ¿Cuántas unidades hay? Usa 6,022 · 10²³ partículas por mol.",
+   "datos": {
+    "formula": "NaCl",
+    "m": 58.4,
+    "particulas": true,
+    "unidad_particula": "unidades de NaCl"
+   }
+  },
+  "Q-06-08": {
+   "capitulo": 6,
+   "nivel": 3,
+   "tipo": "estequiometria",
+   "titulo": "Estequiometría sin ayuda",
+   "enunciado": "Receta química: C₆H₁₂O₆ + O₂ → CO₂ + H₂O. Ajusta la ecuación. Si reaccionan por completo 45,0 g de glucosa, ¿cuántos gramos de dióxido de carbono se forman? Usa las masas de la tabla.",
+   "datos": {
+    "reactivos": [
+     "C6H12O6",
+     "O2"
+    ],
+    "productos": [
+     "CO2",
+     "H2O"
+    ],
+    "dado": "C6H12O6",
+    "pide": "CO2",
+    "m": 45.0
+   }
+  },
+  "Q-06-09": {
+   "capitulo": 6,
+   "nivel": 2,
+   "tipo": "masa-molecular",
+   "titulo": "Repaso: masas a partir de la fórmula",
+   "enunciado": "Masas a partir de la fórmula. Con las masas atómicas de la tabla del libro, calcula en unidades de masa atómica (u) la masa molecular de cada sustancia molecular o la masa de la unidad fórmula de cada compuesto iónico (los que llevan un metal). Di cuál de las dos es. Redondea a los decimales del dato menos preciso: a) NH₃; b) H₂SO₄; c) Al₂(SO₄)₃; d) CaCO₃.",
+   "datos": {
+    "formulas": [
+     "NH3",
+     "H2SO4",
+     "Al2(SO4)3",
+     "CaCO3"
+    ]
+   }
+  },
+  "Q-07-01": {
+   "capitulo": 7,
+   "nivel": 1,
+   "tipo": "contar-atomos",
+   "titulo": "El chat cuenta átomos",
+   "enunciado": "¿Cuántos átomos de cada elemento hay en cada fórmula? ¿Y cuántos en total? a) O₂; b) H₂SO₄; c) Mg(NO₃)₂; d) Ca₃(PO₄)₂.",
+   "datos": {
+    "formulas": [
+     "O2",
+     "H2SO4",
+     "Mg(NO3)2",
+     "Ca3(PO4)2"
+    ]
+   }
+  },
+  "Q-07-02": {
+   "capitulo": 7,
+   "nivel": 2,
+   "tipo": "masa-molecular",
+   "titulo": "El chat y la tabla",
+   "enunciado": "Masas a partir de la fórmula. Con las masas atómicas de la tabla del libro, calcula en unidades de masa atómica (u) la masa molecular de cada sustancia molecular o la masa de la unidad fórmula de cada compuesto iónico (los que llevan un metal). Di cuál de las dos es. Redondea a los decimales del dato menos preciso: a) MgO; b) H₂SO₄; c) CaCO₃.",
+   "datos": {
+    "formulas": [
+     "MgO",
+     "H2SO4",
+     "CaCO3"
+    ]
+   }
+  },
+  "Q-07-03": {
+   "capitulo": 7,
+   "nivel": 2,
+   "tipo": "nombrar",
+   "titulo": "El chat y los números romanos",
+   "enunciado": "Nombra cada compuesto con la nomenclatura de Stock (número romano solo si el metal puede tener varios estados de oxidación): a) MgBr₂; b) PbO₂; c) FeO; d) K₂S.",
+   "datos": {
+    "sistema": "stock",
+    "formulas": [
+     "MgBr2",
+     "PbO2",
+     "FeO",
+     "K2S"
+    ]
+   }
+  },
+  "Q-07-04": {
+   "capitulo": 7,
+   "nivel": 2,
+   "tipo": "formula-ionica",
+   "titulo": "El chat junta iones",
+   "enunciado": "Cartas de iones: junta cada catión con su anión y escribe la fórmula del compuesto neutro (las cargas tienen que sumar cero): a) Fe²⁺ y Cl⁻; b) Al³⁺ y O²⁻; c) Al³⁺ y Cl⁻; d) Mg²⁺ y N³⁻.",
+   "datos": {
+    "pares": [
+     [
+      "Fe",
+      2,
+      "Cl"
+     ],
+     [
+      "Al",
+      3,
+      "O"
+     ],
+     [
+      "Al",
+      3,
+      "Cl"
+     ],
+     [
+      "Mg",
+      2,
+      "N"
+     ]
+    ]
+   }
+  },
+  "Q-07-05": {
+   "capitulo": 7,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "El chat ajusta",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: CH₄ + O₂ → CO₂ + H₂O.",
+   "datos": {
+    "reactivos": [
+     "CH4",
+     "O2"
+    ],
+    "productos": [
+     "CO2",
+     "H2O"
+    ]
+   }
+  },
+  "Q-07-06": {
+   "capitulo": 7,
+   "nivel": 3,
+   "tipo": "mol",
+   "titulo": "El chat cuenta moles",
+   "enunciado": "Tienes 32,1 g de metano (CH₄). Calcula su masa molar con la tabla y di cuántos moles son.",
+   "datos": {
+    "formula": "CH4",
+    "m": 32.1
+   }
+  },
+  "Q-07-07": {
+   "capitulo": 7,
+   "nivel": 3,
+   "tipo": "concentracion",
+   "titulo": "El chat prepara una disolución",
+   "enunciado": "Disuelves 30,0 g de azúcar en agua hasta tener 500 mL de disolución. ¿Cuál es la concentración en gramos por litro (g/L)?",
+   "datos": {
+    "modo": "c",
+    "soluto": "azúcar",
+    "m": 30,
+    "V_mL": 500
+   }
+  },
+  "Q-08-01": {
+   "capitulo": 8,
+   "nivel": 1,
+   "tipo": "tabla-pistas",
+   "titulo": "Final 1: ¿quién soy?",
+   "enunciado": "¿Quién soy? Cada acertijo es un elemento de número atómico 2 a 20 (del helio al calcio), y las pistas dejan un solo candidato: a) Mi ion más común tiene carga 1−. Estoy en el periodo 2. b) Mi ion más común tiene carga 2+. Estoy en el periodo 4. c) Tengo más de 16 protones. Mi ion más común tiene carga 1+.",
+   "datos": {
+    "acertijos": [
+     [
+      [
+       "ion",
+       -1
+      ],
+      [
+       "periodo",
+       2
+      ]
+     ],
+     [
+      [
+       "ion",
+       2
+      ],
+      [
+       "periodo",
+       4
+      ]
+     ],
+     [
+      [
+       "zmayor",
+       16
+      ],
+      [
+       "ion",
+       1
+      ]
+     ]
+    ]
+   }
+  },
+  "Q-08-02": {
+   "capitulo": 8,
+   "nivel": 2,
+   "tipo": "formular",
+   "titulo": "Final 2: fórmulas",
+   "enunciado": "Escribe la fórmula de cada compuesto: a) hidruro de calcio; b) óxido de hierro(III); c) monóxido de carbono; d) dióxido de silicio.",
+   "datos": {
+    "nombres": [
+     "hidruro de calcio",
+     "óxido de hierro(III)",
+     "monóxido de carbono",
+     "dióxido de silicio"
+    ]
+   }
+  },
+  "Q-08-03": {
+   "capitulo": 8,
+   "nivel": 2,
+   "tipo": "conservacion-masa",
+   "titulo": "Final 3: la masa se conserva",
+   "enunciado": "En un recipiente cerrado reaccionan por completo 44,1 g de propano con 160,0 g de oxígeno. Se forman 132,0 g de dióxido de carbono y algo de agua. ¿Cuántos gramos de agua se forman?",
+   "datos": {
+    "modo": "reaccion",
+    "reactivos": [
+     [
+      "propano",
+      44.1
+     ],
+     [
+      "oxígeno",
+      160.0
+     ]
+    ],
+    "producto_conocido": [
+     "dióxido de carbono",
+     132.0
+    ],
+    "producto_pedido": "agua"
+   }
+  },
+  "Q-08-04": {
+   "capitulo": 8,
+   "nivel": 3,
+   "tipo": "ajuste",
+   "titulo": "Final 4: una ecuación difícil",
+   "enunciado": "Ajusta la ecuación con los coeficientes enteros más pequeños posibles: CaCO₃ + HCl → CaCl₂ + H₂O + CO₂.",
+   "datos": {
+    "reactivos": [
+     "CaCO3",
+     "HCl"
+    ],
+    "productos": [
+     "CaCl2",
+     "H2O",
+     "CO2"
+    ]
+   }
+  },
+  "Q-08-05": {
+   "capitulo": 8,
+   "nivel": 3,
+   "tipo": "estequiometria",
+   "titulo": "Final 5: la receta completa",
+   "enunciado": "Receta química: C₆H₁₂O₆ + O₂ → CO₂ + H₂O. Ajusta la ecuación. Si reaccionan por completo 30,0 g de glucosa, ¿cuántos gramos de dióxido de carbono se forman? Usa las masas de la tabla.",
+   "datos": {
+    "reactivos": [
+     "C6H12O6",
+     "O2"
+    ],
+    "productos": [
+     "CO2",
+     "H2O"
+    ],
+    "dado": "C6H12O6",
+    "pide": "CO2",
+    "m": 30.0
+   }
+  },
+  "Q-08-06": {
+   "capitulo": 8,
+   "nivel": 1,
+   "tipo": "particulas",
+   "titulo": "Final 6: dentro de los iones",
+   "enunciado": "El número de arriba a la izquierda es el número másico A (protones + neutrones); el de arriba a la derecha, la carga. Con la tabla periódica del libro, di cuántos protones, neutrones y electrones tiene cada uno: a) ¹⁴C; b) ¹⁵N; c) ⁴⁰Ca²⁺; d) ¹⁶O²⁻.",
+   "datos": {
+    "especies": [
+     [
+      "C",
+      14,
+      0
+     ],
+     [
+      "N",
+      15,
+      0
+     ],
+     [
+      "Ca",
+      40,
+      2
+     ],
+     [
+      "O",
+      16,
+      -2
+     ]
+    ]
+   }
+  }
+ }
+}
